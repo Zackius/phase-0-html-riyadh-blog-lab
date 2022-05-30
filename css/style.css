@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background:linear-gradient(45deg, black, yellow);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -27,6 +27,7 @@ body {
 h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
+  font-weight: 600;
 }
 
 h1 {
@@ -37,6 +38,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  color: orangered;
 }
 
 h3 {
@@ -56,7 +58,7 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(212, 188, 188);
   text-decoration: none;
 }
 
@@ -79,6 +81,7 @@ a:hover {
   }
   h2 {
     font-size: 1em;
+    color: orangered;
   }
   .wrapper {
     width: 95%;
